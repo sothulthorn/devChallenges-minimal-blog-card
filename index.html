@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Sora', sans-serif;
+        height: 100vh;
+      }
+
+      .card {
+        width: 350px;
+        border-radius: 16px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 40px auto;
+        padding: 16px;
+        background-color: #ffffff;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 16px;
+      }
+
+      .card__tag {
+        margin: 20px auto;
+        background-color: #f2eafd;
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 12px;
+        font-size: 12px;
+        color: #7c19ee;
+        font-weight: 600;
+      }
+
+      .card__content h1 {
+        font-size: 18px;
+        color: #20293a;
+      }
+
+      .card__content p {
+        margin-top: 12px;
+        font-size: 14px;
+        color: #394150;
+        line-height: 1.5;
+      }
+
+      hr {
+        margin: 12px 0;
+        border: none;
+        border-top: 1px solid #e5eaf0;
+      }
+
+      .card__author {
+        font-size: 14px;
+        color: #394150;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="./resources/Cactus.jpg" alt="cactus" />
+      <div class="card__tag">
+        <span>Design</span>
+      </div>
+
+      <div class="card__content">
+        <h1>Embracing Minimalism</h1>
+        <p>
+          From minimalist sculptures to minimalist paintings, this blog will
+          inspire you to appreciate the beauty that lies in simplicity.
+        </p>
+      </div>
+
+      <hr />
+
+      <p class="card__author">Annie Spratt</p>
+    </div>
+
+    <div class="author-info">
+      Coded by <a href="https://github.com/sothulthorn">Sothul Thorn</a> |
+      Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
